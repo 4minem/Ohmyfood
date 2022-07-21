@@ -107,7 +107,6 @@ th {
   animation: fill 1s ease-out;
   background: linear-gradient(#ff79da, #9356dc);
   -webkit-text-fill-color: transparent;
-  transition-delay: 1s;
   font-weight: bold;
 }
 
@@ -242,7 +241,6 @@ th {
   animation: fill 1s ease-out;
   background: linear-gradient(#ff79da, #9356dc);
   -webkit-text-fill-color: transparent;
-  transition-delay: 1s;
   font-weight: bold;
 }
 
