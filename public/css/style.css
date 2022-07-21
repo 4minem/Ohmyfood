@@ -106,6 +106,7 @@ th {
 .heart:hover {
   animation: fill 1s ease-out;
   background: linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
@@ -240,6 +241,7 @@ th {
 .heart:hover {
   animation: fill 1s ease-out;
   background: linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
@@ -514,7 +516,7 @@ th {
     width: 49%;
   }
   h2,
-.footer__logo {
+  .footer__logo {
     width: 100%;
     margin: 0;
   }
