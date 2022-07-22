@@ -1,3 +1,75 @@
+@keyframes appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.delay1 {
+  animation-delay: 0.1s;
+}
+
+.delay2 {
+  animation-delay: 0.3s;
+}
+
+.delay3 {
+  animation-delay: 0.6s;
+}
+
+.delay4 {
+  animation-delay: 0.9s;
+}
+
+@keyframes progress {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes rebound {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(30px);
+  }
+  75% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes loader {
+  0% {
+    background-color: rgb(196, 195, 192);
+  }
+  25% {
+    background-color: rgb(196, 195, 192);
+  }
+  50% {
+    background-color: rgb(196, 195, 192);
+  }
+  80% {
+    background-color: rgba(196, 195, 192, 0.5);
+  }
+  100% {
+    background-color: rgba(196, 195, 192, 0.5);
+    visibility: hidden;
+  }
+}
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 h1 {
   font-family: "Shrikhand", sans-serif;
   font-size: 30px;
@@ -77,6 +149,11 @@ table {
 td,
 th {
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .btn {
@@ -212,6 +289,11 @@ table {
 td,
 th {
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .btn {
@@ -516,7 +598,7 @@ th {
     width: 49%;
   }
   h2,
-  .footer__logo {
+.footer__logo {
     width: 100%;
     margin: 0;
   }
