@@ -566,6 +566,7 @@ a {
   font-family: "Shrikhand", sans-serif;
   color: white;
   margin-bottom: 15px;
+  font-weight: normal;
 }
 .footer__txt {
   color: white;
