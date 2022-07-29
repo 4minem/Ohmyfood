@@ -1,5 +1,11 @@
-@import "./Utils/variables", "./Utils/mixins", "./Utils/animations";
-@import "./Base/typography", "./Base/reset";
-@import "./Components/btn", "./Components/heart", "./Components/badge_new",
-  "./Components/_check_icons";
-@import "./Pages/pages_restaurants", "./Pages/page_principale";
+@import "./Utils/variables";
+@import "./Utils/mixins";
+@import "./Utils/animations";
+@import "./Base/typography";
+@import "./Base/reset";
+@import "./Components/btn";
+@import "./Components/heart";
+@import "./Components/badge_new";
+@import "./Components/_check_icons";
+@import "./Pages/pages_restaurants";
+@import "./Pages/page_principale";
