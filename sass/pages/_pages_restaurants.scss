@@ -67,9 +67,8 @@
     margin-bottom: 15px;
     overflow: hidden;
     @include shadow;
-    animation: appear 0.5s;
-    animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
-    transform: scale(0);
+    animation: appear 2s;
+    transition: 1s;
     animation-fill-mode: both;
     &__txt {
       width: 90%;

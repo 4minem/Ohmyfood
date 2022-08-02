@@ -1,9 +1,12 @@
 @keyframes appear {
   0% {
-    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
   100% {
-    transform: scale(1);
+    opacity: 1;
   }
 }
 .delay1 {
@@ -413,9 +416,8 @@ a {
   margin-bottom: 15px;
   overflow: hidden;
   box-shadow: 2px 2px 10px #c4c3c0;
-  animation: appear 0.5s;
-  animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
-  transform: scale(0);
+  animation: appear 2s;
+  transition: 1s;
   animation-fill-mode: both;
 }
 .dishes__card__txt {
